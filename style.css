@@ -1,0 +1,478 @@
+*{
+    font-family: josefin-sans;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'Baloo';
+  font-style: bold;
+  font-weight: 300;
+  src: url(Baloo-Font/Baloo-Regular.ttf);
+}
+
+body{
+    overflow-x: hidden;
+}
+.header-logo{
+    display: flex;
+    object-fit: contain;
+}
+ul a{
+    color: rgb(0,31,40);
+    font-family: Baloo;
+    
+}
+.right-nav{
+    display: flex right;
+    margin-left: 500px;
+    padding-top: 60px;   
+}
+.active{
+    color:#CD7E50;
+
+}
+
+.active:hover{
+    color: rgb(0,31,40) ;
+}
+a{
+    padding: 30px;
+    font-size: 30px;
+    font-family: Baloo bold;
+    
+}
+a:hover{
+    text-decoration: none;
+    color: #CD7E50 ;
+}
+.text1{
+    padding: 40px;
+}
+.text1 h1{
+    font-size: 90px;
+    color: rgb(0,31,40);
+    font-family: Baloo ;
+}
+.text1 h3{
+    color: rgb(0,31,40);
+    font-family: Baloo;
+    font-size: 40px;
+}
+#Home span{
+    color: rgb(215,123,65);
+      font-family: 'Baloo';
+}
+
+.after-line{
+    border: 1px solid #CD7E50;
+    width: 5%;
+    margin-top: 11px;
+}
+.two{
+    padding: 16px;
+}
+.two p{
+    padding-left: 20px;
+    font-family: 'Baloo 2', light ;
+    font-size: 17px;
+    font-weight: 200;
+      
+}
+.container{
+    padding: 30px;
+   
+}
+.pics{
+    margin-left: -150px;  
+}
+.last{
+    margin-left: 40px;
+}
+.second{
+    height: 65%;
+    width: 300px;
+    padding-top: 9px;
+}
+.third{
+    padding-top: 127px;
+}
+.last-row{
+    margin-top: -94px;
+    margin-left: -135px;
+}
+.last-pic{
+    margin-left: 67px;
+}
+.second-pic{
+    margin-left: 30px;
+}
+.driven{
+    font-family: Baloo ;
+    padding-left: 40px;
+    font-size: 50px;
+
+}
+.cotainer2{
+    margin-top: 150px;
+    color: rgb(215,123,65);
+}
+.drivenby p{
+    padding: 40px;
+    font-family: 'Baloo 2', light ;
+    color: #0A3140;
+    font-size: 18px;
+}
+.logo-two{
+    margin-top: -80px;
+}
+
+/* Mail-list */
+
+.mail-list{
+    width: 100%;
+    padding: 60px;
+}
+.mail-list .row{
+    align-items: center;
+}
+
+.mail-text{
+    font-family: 'Baloo';
+    font-size: 45px;
+    color: #CD7E50;
+}
+
+
+.mail-text a{
+    margin-top: 20px;
+    color: white;
+    background-color:#0B394D;
+    padding: 20px;
+    font-family: 'Baloo';  
+}
+
+.contact{
+    background-color: rgb(238, 239, 241); 
+}
+
+.contact h2{
+    font-family: 'Baloo';
+    color: #CD7E50;
+    font-size: 35px;
+    text-align: center;
+}
+
+.contact p{
+    color: #0A3140;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Baloo 2', light ;
+    margin-bottom: 0;
+}
+
+/* form */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Baloo 2';
+  }
+  
+  input[type=submit] {
+    background-color: #0B394D;
+    color: white;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Baloo';
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  .footer{
+    background-image: url("imgs nowalls/Rectangle 80.png");
+    height: 427px;
+    padding: 150px;
+    margin-top: 90px;
+  }
+
+  .footer h1{
+    font-family: 'Baloo';
+    font-size: 40px;
+    color: white;
+  }
+
+  .footer p{
+    color: white;
+    font-size: 18px;
+    font-family: 'Baloo 2', light ;
+  }
+
+  .footer-text{
+    display: flex;
+  }
+  .number{
+    margin-left: 80px;
+  }
+
+  .container-logo{
+    text-align: center;
+    width: 100%;
+  }
+
+
+  /* Cards */
+
+.card-image{
+    position: relative;
+    height: 171px;
+    width: 380px;
+    padding: 5px;
+}
+.card{
+    background-color: #123E52;
+    width: 400px;
+    margin: 10px;
+    
+}
+.services{
+    background: #0B394D;
+    padding: 40px;
+
+}
+.services h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Baloo';
+    margin-left: 50px;
+}
+
+.slide-content{
+    margin: 0 40px;
+}
+
+.image-content,
+.card-content{
+    display: flex;
+    flex-direction: column;
+   
+    padding: 10px 14px;
+}
+
+.image-content{
+    row-gap: 5px;
+}
+
+.card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.service1{
+    font-family: 'Baloo';
+    font-size: 30px;
+    color:#CD7E50;
+    
+}
+
+.hr{
+    color: #CD7E50;
+    border: 1px solid;
+    width: 100%;
+}
+
+.text22{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.slide-container{
+   
+    width: 100%;
+    background-color: grey;
+    padding: 40px 0;
+}
+
+.slider {
+    width: 100%;
+     margin: 100px auto;
+ }
+
+ .slick-slide {
+   margin: 0px 20px;
+ }
+
+ .slick-slide {
+   transition: all ease-in-out .3s;
+ }
+
+ .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #CD7E50;
+    font-size: 15px;
+}
+
+.slick-dots li button:before {
+    font-size: 10px;
+    line-height: 20px;
+    color: white;
+}
+
+.slick-prev::before {
+    display: none;
+}
+.slick-next:before {
+    display: none;
+}
+
+
+
+ 
+
+
+
+@media (max-width: 575px){
+
+    .header-logo img{
+        width: 200px;
+    }
+    .right-nav {
+        display: none;
+    }
+    .text1 h1 {
+        font-size: 30px;
+    }
+
+    .text1 h3 {
+        font-size: 25px;
+    }
+    .text1{
+        text-align: center;
+    }
+    .second{
+       display: none;
+    }
+    .driven{
+        margin-top: -150px;
+        font-size: 25px;
+    }
+    .drivenby p{
+        font-size: 12px;
+        padding: 5px 40px;
+    }
+
+    .logo-two{
+        width: 200px;
+        margin-top: 0;
+        margin-left: 150px;
+    }
+    .service1 {
+    
+        font-size: 20px;
+     
+    }
+    .text22{
+        font-size: 10px;
+    }
+    
+
+    .img-head{
+        width: 360px;
+        object-fit: cover;
+    }
+    .mail-text h1{
+        font-size: 20px;
+    }
+
+    .mail-text a{
+        font-size: 15px;
+    }
+    
+    .contact img{
+        display: none;
+    }
+    .mail-list img {
+       display: none;
+    }
+    .two p{
+        font-size: 20px;
+        margin-left: 120px;
+    }
+    .two{
+        padding: 0;
+    }
+    .container{
+        padding: 0;
+    }
+
+        .after-line {
+        display: none;
+    }
+    .section img{
+        width: 200px;
+    }
+    .footer{
+        height: 0;
+        padding: 100px;
+        margin-top: 20px;
+
+    }
+    .footer h1{
+        font-size: 20px;
+    
+    }
+    .footer p{
+        font-size: 10px;
+    
+    }
+
+    .last-row{
+        display: none;
+    }
+
+    .last{
+        display: none;
+    }
+    .third{
+        display: none;
+    }
+
+    .pics{
+        margin-left: 0;
+        display: flex;
+    }
+
+    .girl{
+        display: none;
+    }
+    .contact{
+        padding: 40px;
+    }
+
+
+
+
+
+
+}
